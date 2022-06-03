@@ -10,7 +10,7 @@ public class Main {
         System.out.println("2. Celsius to Fahrenheit");
         int choice = scan.nextInt();
 
-        while(choice != 1 || choice != 2) {
+        while(True) {
             if (choice == 1) {
                 System.out.println("what number would you like to convert: ");
                 int num = scan.nextInt();
